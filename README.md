@@ -8,6 +8,8 @@ An arduino application that monitors temperature using a thermistor and switches
   
 ### Temprature Select Rotary Encoder
 * D2 and D3
+
+By default the selectable range is from -15&deg;C to 15&deg;C
   
 ### Thermistor
 * A0
