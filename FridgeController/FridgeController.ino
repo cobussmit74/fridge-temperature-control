@@ -92,12 +92,10 @@ void switchFridge(float currentTemp)
   float selectedTempMax = _selectedTemp + 0.8;
   if (currentTemp < selectedTempMin)
   {
-    //switch fridge off
     digitalWrite(_fridgeControlPin, LOW);
   }
   else if (currentTemp > selectedTempMax)
   {
-    //switch fridge on
     digitalWrite(_fridgeControlPin, HIGH);
   }
 }
